@@ -1,0 +1,146 @@
+
+.hero{
+    /* overflow-x:hidden ; */
+    margin: 64px 40px 144px;
+    /* background-color: #000; */
+    width:90%;
+    display:flex;
+    flex-direction: column;
+
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: black; */
+    width:100%;
+    margin:0;
+}
+
+.totalscore{
+    width:10%;
+    /* background-color: aqua; */
+    margin-left:0;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.totalscore h1{
+    color: #000;
+font-family: Poppins;
+font-size: 100px;
+font-style: normal;
+/* font-weight: 00; */
+line-height: normal;
+}
+
+.totalscore p{
+    text-transform: capitalize;
+    color: #000;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+
+
+content{
+    margin-top:48px;
+    width:80%;
+    display: flex;
+    justify-content: center;
+}
+
+.dice img{
+    cursor: pointer;
+}
+.dice p{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.dice btn{
+    margin-top: 36px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+
+.dice Button{
+    transition-duration: 1s;
+    width:220px;
+    cursor: pointer;
+ }
+
+ outline-button:hover{
+    background-color: #000;
+    color:#fff;
+    /* border: 0px solid ; */
+}
+
+para{
+     
+    margin-top: 64px;
+}
+
+@media (max-width:425px) {
+    
+    nav{
+        width:90%
+        
+    }
+
+    .totalscore h1{
+        padding-right: 50px;
+        font-size:50px;
+
+
+    }
+    .dice{
+
+         margin-left:40px;
+        }
+        
+.dice img {
+    
+            width:180px;
+            margin-left: 10px;
+}
+
+.dice p{
+    display: none;
+}
+
+.dice Button{
+    width:190px;
+    margin-right: 120px;
+}
+
+.dice btn{
+    margin: auto;
+    width: 180px;
+    /* background-color: #000; */
+    /* margin-right: 100px; */
+}
+
+
+para {
+    margin-top: 0px;
+}
+
+
+    
+}
+

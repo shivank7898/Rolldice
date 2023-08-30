@@ -1,0 +1,36 @@
+.dice p{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.dice btn{
+    margin-top: 36px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+
+.dice Button{
+    transition-duration: 1s;
+    width:220px;
+ }
+
+ outline-button:hover{
+    background-color: #000;
+    color:#fff;
+    /* border: 0px solid ; */
+    
+
+}
+
+@media (max-width:425px) {
+    
+    
+}
